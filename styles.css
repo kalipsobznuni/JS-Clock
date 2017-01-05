@@ -1,5 +1,5 @@
 html {
-  background:#018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+  background:#018DED url(http://www.thepaintershandbook.com/wp-content/uploads/2016/10/Wallpaper-4K.jpg);
   background-size:cover;
   font-family:'helvetica neue';
   text-align: center;
@@ -17,14 +17,14 @@ body {
 .clock {
   width: 30rem;
   height: 30rem;
-  border:20px solid white;
+  border:25px solid rgba(24, 37, 50, 0.79);
   border-radius:50%;
   margin:50px auto;
   position: relative;
   padding:2rem;
   box-shadow:
     0 0 0 4px rgba(0,0,0,0.1),
-    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 0 3px rgba(240, 176, 72, 0.2),
     inset 0 0 10px black,
     0 0 10px rgba(0,0,0,0.2);
 }
@@ -38,8 +38,8 @@ body {
 
 .hand {
   width:50%;
-  height:6px;
-  background:black;
+  height:7px;
+  background:rgba(251, 177, 0, 0.70);
   position: absolute;
   top:50%;
   transform-origin: 100%;
